@@ -1,0 +1,20 @@
+{
+  "skill": "Algebra Attack",
+  "games": [
+    {
+      "title": "Variable Hunter",
+      "description": "Track down unknown variables and solve equations to save the day!",
+      "link": "/game/variable-hunter"
+    },
+    {
+      "title": "Equation Escape",
+      "description": "Solve algebraic puzzles to escape from challenging maze rooms.",
+      "link": "/game/equation-escape"
+    },
+    {
+      "title": "Balance Master",
+      "description": "Learn to balance equations by moving terms across the equal sign.",
+      "link": "/game/balance-master"
+    }
+  ]
+}
