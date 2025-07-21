@@ -4,7 +4,7 @@
       {
         "title": "Math Quest",
         "description": "Master math skills through engaging quiz gameplay. Choose your challenge and survive waves of increasingly difficult questions!",
-        "link": "coming soon"
+        "link": "https://math-wave-survivor-game.vercel.app/?filtered=rational-conversion"
       },
       {
         "title": "Convert & Match",
@@ -14,7 +14,7 @@
       {
         "title": "Operation Battle (Offline)",
         "description": "Challenge your friend on the same device. Fast-paced math battles!",
-        "link": "coming soon"
+        "link": "https://math-battle-pied.vercel.app/?skill=rational-conversion"
       },
       {
         "title": "Operation Battle (Online)",

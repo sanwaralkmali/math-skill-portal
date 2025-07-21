@@ -10,9 +10,9 @@ const mathSkills = [
     icon: <Calculator className="h-6 w-6" />
   },
   {
-    title: "Rational Conversion",
+    title: "Fractions Mastery",
     description: "Conquer the world of fractions, decimals, and percentages. Build pizza slices, compare fractions, and become a fraction wizard!",
-    skillName: "rational-conversion", 
+    skillName: "fractions-mastery", 
     color: "pink" as const,
     icon: <Divide className="h-6 w-6" />
   },
@@ -20,10 +20,16 @@ const mathSkills = [
     title: "Algebra Builder",
     description: "Explore the concepts of variables and constants in algebra. Practice identifying and using them in mathematical expressions and equations!",
     skillName: "algebra-builder",
-    color: "grey" as const,
-    icon: <Gamepad2 className="h-6 w-6" />
+    color: "teal" as const,
+    icon: <Target className="h-6 w-6" />
   },
-  
+  {
+    title: "Scientific Notation",
+    description: "Master the basics and operations of scientific notation through quizzes and battles!",
+    skillName: "scientific-notation",
+    color: "yellow" as const,
+    icon: <Brain className="h-6 w-6" />
+  },
   {
     title: "Logic Puzzles",
     description: "Sharpen your problem-solving skills with mind-bending puzzles and logical challenges that make math fun!",
@@ -38,7 +44,6 @@ const mathSkills = [
     color: "secondary" as const,
     icon: <Trophy className="h-6 w-6" />
   }
-  
 ];
 
 const Index = () => {

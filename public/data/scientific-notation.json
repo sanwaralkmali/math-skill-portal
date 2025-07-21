@@ -1,0 +1,25 @@
+{
+  "skill": "Scientific Notation",
+  "games": [
+    {
+      "title": "Quiz Quest: Basics of Scientific Notation (Convert to and from Standard Form)",
+      "description": "Test your knowledge on converting numbers to and from scientific notation.",
+      "link": "coming soon"
+    },
+    {
+      "title": "Quiz Quest: Operations with Scientific Notation",
+      "description": "Practice operations (add, subtract, multiply, divide) with numbers in scientific notation.",
+      "link": "coming soon"
+    },
+    {
+      "title": "Battle: Basics of Scientific Notation (Convert to and from Standard Form)",
+      "description": "Compete to see who can best convert numbers to and from scientific notation.",
+      "link": "coming soon"
+    },
+    {
+      "title": "Battle: Operations with Scientific Notation",
+      "description": "Challenge others in operations with scientific notation.",
+      "link": "coming soon"
+    }
+  ]
+}
