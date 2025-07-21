@@ -16,6 +16,13 @@ const mathSkills = [
     color: "pink" as const,
     icon: <Divide className="h-6 w-6" />
   },
+  {
+    title: "Algebra Builder",
+    description: "Explore the concepts of variables and constants in algebra. Practice identifying and using them in mathematical expressions and equations!",
+    skillName: "algebra-builder",
+    color: "grey" as const,
+    icon: <Gamepad2 className="h-6 w-6" />
+  },
   
   {
     title: "Logic Puzzles",
