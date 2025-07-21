@@ -16,20 +16,7 @@ const mathSkills = [
     color: "pink" as const,
     icon: <Divide className="h-6 w-6" />
   },
-  {
-    title: "Algebra Attack",
-    description: "Dive into the mysterious world of variables and equations. Solve for X, balance equations, and unlock algebraic secrets!",
-    skillName: "algebra-attack",
-    color: "teal" as const,
-    icon: <Target className="h-6 w-6" />
-  },
-  {
-    title: "Geometry Quest",
-    description: "Explore shapes, angles, and spatial reasoning. Build structures, calculate areas, and navigate geometric challenges!",
-    skillName: "geometry-quest",
-    color: "yellow" as const,
-    icon: <Brain className="h-6 w-6" />
-  },
+  
   {
     title: "Logic Puzzles",
     description: "Sharpen your problem-solving skills with mind-bending puzzles and logical challenges that make math fun!",
