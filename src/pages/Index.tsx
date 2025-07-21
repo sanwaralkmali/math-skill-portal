@@ -10,9 +10,9 @@ const mathSkills = [
     icon: <Calculator className="h-6 w-6" />
   },
   {
-    title: "Fractions Mastery",
+    title: "Rational Conversion",
     description: "Conquer the world of fractions, decimals, and percentages. Build pizza slices, compare fractions, and become a fraction wizard!",
-    skillName: "fractions-mastery", 
+    skillName: "rational-conversion", 
     color: "pink" as const,
     icon: <Divide className="h-6 w-6" />
   },
@@ -44,6 +44,7 @@ const mathSkills = [
     color: "secondary" as const,
     icon: <Trophy className="h-6 w-6" />
   }
+  
 ];
 
 const Index = () => {
