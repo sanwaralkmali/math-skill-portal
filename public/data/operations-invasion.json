@@ -9,7 +9,7 @@
     {
       "title": "Operation Battle (Offline)",
       "description": "Challenge your friend on the same device. Fast-paced math battles!",
-      "link": "https://math-battle-pied.vercel.app/?skills=basic-operations"
+      "link": "https://math-battle-pied.vercel.app/?skill=basic-operations"
     },
     {
       "title": "Operation Battle (Online)",
