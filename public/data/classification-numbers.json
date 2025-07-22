@@ -1,0 +1,21 @@
+{
+    "skill": "Number Classification",
+    "games": [
+      {
+        "title": "Drag & Drop: Classify the Numbers",
+        "description": "Sort numbers into the correct category: Natural, Whole, Integer, Rational, Irrational, Real, or Complex.",
+        "link": "https://math-master-drag-drop.vercel.app/?skill=classification-numbers"
+      },
+      {
+        "title": "Quiz Quest: Number Classification Challenge",
+        "description": "Test your understanding by identifying which set a number belongs to in multiple-choice format.",
+        "link": "https://math-wave-survivor-game.vercel.app/?filtered=classification-numbers"
+      },
+      {
+        "title": "Battle: Real vs. Imaginary – Number Sorting Showdown",
+        "description": "Face off with others to quickly and correctly classify numbers into their proper groups.",
+        "link": "https://math-battle-pied.vercel.app/?skill=classification-numbers"
+      }
+    ]
+  }
+  

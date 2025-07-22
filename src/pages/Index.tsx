@@ -1,7 +1,14 @@
-import { Calculator, Divide, Target, Brain, Gamepad2, Trophy } from "lucide-react";
+import { Component, Calculator, Divide, Target, Brain, Gamepad2, Trophy } from "lucide-react";
 import { SkillCard } from "@/components/ui/skill-card";
 
 const mathSkills = [
+  {
+    title: "Number Classification",
+    description: "Master number classification by classify numbers into different categories based on their properties.",
+    skillName: "classification-numbers",
+    color: "primary" as const,
+    icon: <Component className="h-6 w-6" />
+  },
   {
     title: "Operations Invasion",
     description: "Master addition, subtraction, multiplication, and division through exciting battle scenarios. Fight math monsters with your calculation skills!",
