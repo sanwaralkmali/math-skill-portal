@@ -76,7 +76,13 @@ const mathSkills = [
     color: "cyan" as const,
     icon: <Trophy className="h-6 w-6" />,
   },
-
+  {
+    title: "Factoring Trinomials",
+    description: "Factoring Trinomials: x² + bx + c && ax² + bx + c",
+    skillName: "factoring-trinomials",
+    color: "red" as const,
+    icon: <Trophy className="h-6 w-6" />,
+  },
   {
     title: "Logic Puzzles",
     description:

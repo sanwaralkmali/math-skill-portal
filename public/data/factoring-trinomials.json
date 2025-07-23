@@ -1,0 +1,20 @@
+{
+  "skill": "Factoring Trinomials",
+  "games": [
+    {
+      "title": "Quiz: Factoring Trinomials",
+      "description": "Practice factoring trinomials.",
+      "link": "https://math-wave-survivor-game.vercel.app/?filtered=factoring-trinomials"
+    },
+    {
+      "title": "Battle: Factoring Trinomials",
+      "description": "Compete to factoring trinomials and win points.",
+      "link": "https://math-battle-pied.vercel.app/?skill=factoring-trinomials"
+    },
+    {
+      "title": "Speed Math Battle: Factoring Trinomials",
+      "description": "Be the fastest to factoring trinomials and win points.",
+      "link": "https://speed-math-battle.vercel.app/?skill=factoring-trinomials"
+    }
+  ]
+}
