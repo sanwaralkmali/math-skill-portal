@@ -20,6 +20,16 @@
       "title": "Battle: Notation Operations",
       "description": "Compete in scientific notation operations.",
       "link": "https://math-battle-pied.vercel.app/?skill=operations-scientific-notation"
+    },
+    {
+      "title": "Speed Math Battle: Convert Numbers",
+      "description": "Be the fastest to convert and win points.",
+      "link": "https://speed-math-battle.vercel.app/?skill=basic-scientific-notation"
+    },
+    {
+      "title": "Speed Math Battle: Notation Operations",
+      "description": "Be the fastest to convert and win points.",
+      "link": "https://speed-math-battle.vercel.app/?skill=operations-scientific-notation"
     }
   ]
 }

@@ -20,6 +20,11 @@
       "title": "Battle (Online)",
       "description": "Play live battles with others. (Coming soon)",
       "link": "coming soon"
+    },
+    {
+      "title": "Speed Math Battle",
+      "description": "Be the fastest to convert and win points.",
+      "link": "https://speed-math-battle.vercel.app/?skill=rational-conversion"
     }
   ]
 }

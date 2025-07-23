@@ -15,6 +15,11 @@
       "title": "Battle (Online)",
       "description": "Real-time operation battles. (Coming soon)",
       "link": "coming soon"
+    },
+    {
+      "title": "Speed Math Battle",
+      "description": "Be the fastest to simplify and win points.",
+      "link": "https://speed-math-battle.vercel.app/?skill=basic-operations"
     }
   ]
 }

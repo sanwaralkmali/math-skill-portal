@@ -17,6 +17,11 @@
       "link": "https://math-battle-pied.vercel.app/?skill=algebra-builder"
     },
     {
+      "title": "Speed Math Battle",
+      "description": "Be the fastest to simplify and win points.",
+      "link": "https://speed-math-battle.vercel.app/?skill=algebra-builder"
+    },
+    {
       "title": "Battle (Online)",
       "description": "Play live algebra battles online. (Coming soon)",
       "link": "coming soon"

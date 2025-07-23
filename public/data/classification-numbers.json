@@ -15,6 +15,11 @@
       "title": "Battle: Number Groups",
       "description": "Compete to classify numbers fast and right.",
       "link": "https://math-battle-pied.vercel.app/?skill=classification-numbers"
+    },
+    {
+      "title": "Speed Math Battle",
+      "description": "Be the fastest to classify numbers and win points.",
+      "link": "https://speed-math-battle.vercel.app/?skill=classification-numbers"
     }
   ]
 }
