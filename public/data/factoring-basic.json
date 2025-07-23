@@ -4,12 +4,12 @@
     {
       "title": "Quiz: Greatest Common Factor GCF",
       "description": "Practice finding the GCF of numbers.",
-      "link": "https://math-wave-survivor-game.vercel.app/?skill=gcf-factoring"
+      "link": "https://math-wave-survivor-game.vercel.app/?filtered=factoring"
     },
     {
       "title": "Quiz: Factoring by Grouping",
       "description": "Practice factoring by grouping.",
-      "link": "https://math-wave-survivor-game.vercel.app/?skill=factoring-by-grouping"
+      "link": "https://math-wave-survivor-game.vercel.app/?filtered=factoring"
     },
     {
       "title": "Battle: Greatest Common Factor GCF",
