@@ -54,22 +54,6 @@ const mathSkills = [
   },
 
   {
-    title: "Logic Puzzles",
-    description:
-      "Sharpen your problem-solving skills with mind-bending puzzles and logical challenges that make math fun!",
-    skillName: "logic-puzzles",
-    color: "primary" as const,
-    icon: <Gamepad2 className="h-6 w-6" />,
-  },
-  {
-    title: "Math Olympics",
-    description:
-      "Compete in mathematical challenges across all skill levels. From basic arithmetic to advanced problem solving!",
-    skillName: "math-olympics",
-    color: "secondary" as const,
-    icon: <Trophy className="h-6 w-6" />,
-  },
-  {
     title: "Solving Equations",
     description:
       "Master the art of solving equations step by step, from simple linear to more complex equations!",
@@ -83,6 +67,30 @@ const mathSkills = [
       "Learn to solve and graph inequalities with interactive challenges and games!",
     skillName: "solving-inequalities",
     color: "purple" as const,
+    icon: <Trophy className="h-6 w-6" />,
+  },
+  {
+    title: "Basic Factoring",
+    description: "GCF: Greatest Common Factor & Factoring by Grouping",
+    skillName: "factoring-basic",
+    color: "cyan" as const,
+    icon: <Trophy className="h-6 w-6" />,
+  },
+
+  {
+    title: "Logic Puzzles",
+    description:
+      "Sharpen your problem-solving skills with mind-bending puzzles and logical challenges that make math fun!",
+    skillName: "logic-puzzles",
+    color: "primary" as const,
+    icon: <Gamepad2 className="h-6 w-6" />,
+  },
+  {
+    title: "Math Olympics",
+    description:
+      "Compete in mathematical challenges across all skill levels. From basic arithmetic to advanced problem solving!",
+    skillName: "math-olympics",
+    color: "secondary" as const,
     icon: <Trophy className="h-6 w-6" />,
   },
 ];
