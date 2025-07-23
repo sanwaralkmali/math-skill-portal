@@ -1,5 +1,5 @@
 {
-  "skill": "Scientific Notation",
+  "skill": "Basic Factoring",
   "games": [
     {
       "title": "Quiz: Greatest Common Factor GCF",
@@ -14,22 +14,22 @@
     {
       "title": "Battle: Greatest Common Factor GCF",
       "description": "Compete to find the GCF of numbers and win points.",
-      "link": "https://math-battle-pied.vercel.app/?skill=gcf-factoring"
+      "link": "https://math-battle-pied.vercel.app/?skill=factoring"
     },
     {
       "title": "Battle: Factoring by Grouping",
       "description": "Compete to factor by grouping and win points.",
-      "link": "https://math-battle-pied.vercel.app/?skill=factoring-by-grouping"
+      "link": "https://math-battle-pied.vercel.app/?skill=factoring"
     },
     {
       "title": "Speed Math Battle: Greatest Common Factor GCF",
       "description": "Be the fastest to find the GCF of numbers and win points.",
-      "link": "https://speed-math-battle.vercel.app/?skill=gcf-factoring"
+      "link": "https://speed-math-battle.vercel.app/?skill=factoring"
     },
     {
       "title": "Speed Math Battle: Factoring by Grouping",
       "description": "Be the fastest to factor by grouping and win points.",
-      "link": "https://speed-math-battle.vercel.app/?skill=factoring-by-grouping"
+      "link": "https://speed-math-battle.vercel.app/?skill=factoring"
     }
   ]
 }
