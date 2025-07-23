@@ -2,23 +2,23 @@
   "skill": "Algebra Builder",
   "games": [
     {
-      "title": "Drage & Drop",
-      "description": "A drag and drop game to build algebraic expressions and equations.",
+      "title": "Drag & Build",
+      "description": "Drag and drop to build expressions and equations.",
       "link": "https://math-master-drag-drop.vercel.app/?skill=algebra-builder"
     },
     {
-      "title": "Math Quest",
-      "description": "Embark on a quest to solve algebraic challenges and puzzles.",
+      "title": "Quiz: Algebra Basics",
+      "description": "Solve algebra problems in wave-based quiz play.",
       "link": "https://math-wave-survivor-game.vercel.app/?skill=algebra-basics"
     },
     {
-      "title": "Operation Battle (Offline)",
-      "description": "Challenge a friend in offline algebraic battles!",
+      "title": "Battle (Offline)",
+      "description": "2-player algebra battle on the same device.",
       "link": "https://math-battle-pied.vercel.app/?skill=algebra-builder"
     },
     {
-      "title": "Operation Battle (Online)",
-      "description": "Compete in real-time algebra battles online.",
+      "title": "Battle (Online)",
+      "description": "Play live algebra battles online. (Coming soon)",
       "link": "coming soon"
     }
   ]

@@ -1,0 +1,25 @@
+{
+  "skill": "Simplify Expressions",
+  "games": [
+    {
+      "title": "Quiz: Simplify Expressions",
+      "description": "Practice simplifying expressions in waves.",
+      "link": "https://math-wave-survivor-game.vercel.app/?skill=simplify-expressions"
+    },
+    {
+      "title": "Turn-Based Duel",
+      "description": "Take turns simplifying to score and win.",
+      "link": "https://math-battle-pied.vercel.app/?skill=simplify-expressions"
+    },
+    {
+      "title": "Speed Math Battle",
+      "description": "Be the fastest to simplify and win points.",
+      "link": "https://speed-math-battle.vercel.app/?skill=simplify-expressions"
+    },
+    {
+      "title": "Real-Time Duel",
+      "description": "Face off live in a simplifying battle. (Coming soon)",
+      "link": "coming soon"
+    }
+  ]
+}

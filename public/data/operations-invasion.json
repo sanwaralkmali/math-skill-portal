@@ -2,18 +2,18 @@
   "skill": "Operations Invasion",
   "games": [
     {
-      "title": "Math Quest",
-      "description": "Master math skills through engaging quiz gameplay. Choose your challenge and survive waves of increasingly difficult questions!",
+      "title": "Quiz: Basic Operations",
+      "description": "Solve addition, subtraction, and more in waves.",
       "link": "https://math-wave-survivor-game.vercel.app/?filtered=basic-operations"
     },
     {
-      "title": "Operation Battle (Offline)",
-      "description": "Challenge your friend on the same device. Fast-paced math battles!",
+      "title": "Battle (Offline)",
+      "description": "2-player battle with basic operations.",
       "link": "https://math-battle-pied.vercel.app/?skill=basic-operations"
     },
     {
-      "title": "Operation Battle (Online)",
-      "description": "Play real-time battles against friends using different machines.",
+      "title": "Battle (Online)",
+      "description": "Real-time operation battles. (Coming soon)",
       "link": "coming soon"
     }
   ]

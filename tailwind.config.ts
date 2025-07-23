@@ -69,7 +69,18 @@ export default {
 					orange: 'hsl(var(--game-orange))',
 					pink: 'hsl(var(--game-pink))',
 					yellow: 'hsl(var(--game-yellow))',
-					teal: 'hsl(var(--game-teal))'
+					teal: 'hsl(var(--game-teal))',
+					blue: 'hsl(var(--game-blue))',
+					green: 'hsl(var(--game-green))',
+					red: 'hsl(var(--game-red))',
+					purple: 'hsl(var(--game-purple))',
+					cyan: 'hsl(var(--game-cyan))',
+					lime: 'hsl(var(--game-lime))',
+					amber: 'hsl(var(--game-amber))',
+					indigo: 'hsl(var(--game-indigo))',
+					rose: 'hsl(var(--game-rose))',
+					violet: 'hsl(var(--game-violet))',
+					sky: 'hsl(var(--game-sky))',
 				}
 			},
 			borderRadius: {

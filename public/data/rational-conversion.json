@@ -1,25 +1,25 @@
 {
-    "skill": "Rational Conversion",
-    "games": [
-      {
-        "title": "Math Quest",
-        "description": "Master math skills through engaging quiz gameplay. Choose your challenge and survive waves of increasingly difficult questions!",
-        "link": "https://math-wave-survivor-game.vercel.app/?filtered=rational-conversion"
-      },
-      {
-        "title": "Convert & Match",
-        "description": "Master math skills through engaging memory gameplay.",
-        "link": "https://math-memory-game.vercel.app/game?skill=convert-rational"
-      },
-      {
-        "title": "Operation Battle (Offline)",
-        "description": "Challenge your friend on the same device. Fast-paced math battles!",
-        "link": "https://math-battle-pied.vercel.app/?skill=rational-conversion"
-      },
-      {
-        "title": "Operation Battle (Online)",
-        "description": "Play real-time battles against friends using different machines.",
-        "link": "coming soon"
-      }
-    ]
-  }
+  "skill": "Rational Conversion",
+  "games": [
+    {
+      "title": "Quiz: Rational Conversion",
+      "description": "Answer fraction and decimal questions in timed waves.",
+      "link": "https://math-wave-survivor-game.vercel.app/?filtered=rational-conversion"
+    },
+    {
+      "title": "Match: Convert Values",
+      "description": "Match decimals, fractions, and percents.",
+      "link": "https://math-memory-game.vercel.app/game?skill=convert-rational"
+    },
+    {
+      "title": "Battle (Offline)",
+      "description": "2-player conversion battle on one device.",
+      "link": "https://math-battle-pied.vercel.app/?skill=rational-conversion"
+    },
+    {
+      "title": "Battle (Online)",
+      "description": "Play live battles with others. (Coming soon)",
+      "link": "coming soon"
+    }
+  ]
+}

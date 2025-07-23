@@ -2,23 +2,23 @@
   "skill": "Scientific Notation",
   "games": [
     {
-      "title": "Quiz Quest: Basics of Scientific Notation (Convert to and from Standard Form)",
-      "description": "Test your knowledge on converting numbers to and from scientific notation.",
+      "title": "Quiz: Convert Numbers",
+      "description": "Practice converting to and from scientific notation.",
       "link": "https://math-wave-survivor-game.vercel.app/?skill=basic-scientific-notation"
     },
     {
-      "title": "Quiz Quest: Operations with Scientific Notation",
-      "description": "Practice operations (add, subtract, multiply, divide) with numbers in scientific notation.",
+      "title": "Quiz: Scientific Notation Ops",
+      "description": "Work on adding, subtracting, multiplying, and dividing.",
       "link": "https://math-wave-survivor-game.vercel.app/?skill=operations-scientific-notation"
     },
     {
-      "title": "Battle: Basics of Scientific Notation (Convert to and from Standard Form)",
-      "description": "Compete to see who can best convert numbers to and from scientific notation.",
+      "title": "Battle: Convert Numbers",
+      "description": "Race to convert numbers correctly.",
       "link": "https://math-battle-pied.vercel.app/?skill=basic-scientific-notation"
     },
     {
-      "title": "Battle: Operations with Scientific Notation",
-      "description": "Challenge others in operations with scientific notation.",
+      "title": "Battle: Notation Operations",
+      "description": "Compete in scientific notation operations.",
       "link": "https://math-battle-pied.vercel.app/?skill=operations-scientific-notation"
     }
   ]
