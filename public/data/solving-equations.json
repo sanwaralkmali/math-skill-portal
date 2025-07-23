@@ -1,0 +1,20 @@
+{
+  "skill": "Solving Equations",
+  "games": [
+    {
+      "title": "Quiz: Solving Equations",
+      "description": "Test your ability to solve equations of varying difficulty.",
+      "link": "https://math-wave-survivor-game.vercel.app/?skill=solving-equations"
+    },
+    {
+      "title": "Turn-Based Duel",
+      "description": "Compete to solve equations faster than your opponent.",
+      "link": "https://math-battle-pied.vercel.app/?skill=solving-equations"
+    },
+    {
+      "title": "Speed Equation Challenge",
+      "description": "Be the fastest to solve the equations and win points",
+      "link": "https://speed-math-battle.vercel.app/?skill=solving-equations"
+    }
+  ]
+}

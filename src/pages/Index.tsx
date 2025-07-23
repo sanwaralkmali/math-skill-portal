@@ -69,6 +69,22 @@ const mathSkills = [
     color: "secondary" as const,
     icon: <Trophy className="h-6 w-6" />,
   },
+  {
+    title: "Solving Equations",
+    description:
+      "Master the art of solving equations step by step, from simple linear to more complex equations!",
+    skillName: "solving-equations",
+    color: "blue" as const,
+    icon: <Divide className="h-6 w-6" />,
+  },
+  {
+    title: "Solving Inequalities",
+    description:
+      "Learn to solve and graph inequalities with interactive challenges and games!",
+    skillName: "solving-inequalities",
+    color: "purple" as const,
+    icon: <Trophy className="h-6 w-6" />,
+  },
 ];
 
 const Index = () => {
