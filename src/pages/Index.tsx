@@ -106,6 +106,13 @@ const mathSkills = [
     icon: <Trophy className="h-6 w-6" />,
   },
   {
+    title: "Quadratic Formula",
+    description: "Quadratic Formula: ax² + bx + c = 0",
+    skillName: "quadratic-formula",
+    color: "orange" as const,
+    icon: <Trophy className="h-6 w-6" />,
+  },
+  {
     title: "Logic Puzzles",
     description:
       "Sharpen your problem-solving skills with mind-bending puzzles and logical challenges that make math fun!",
