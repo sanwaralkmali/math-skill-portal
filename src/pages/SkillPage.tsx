@@ -1,6 +1,17 @@
 import { useParams, Link } from "react-router-dom";
 import { useEffect, useState } from "react";
-import { ArrowLeft, BookOpen, Gamepad2, Sword, Brain, Target, Users, Trophy, Zap } from "lucide-react";
+import {
+  ArrowLeft,
+  BookOpen,
+  Gamepad2,
+  Sword,
+  Brain,
+  Target,
+  Users,
+  Trophy,
+  Zap,
+  Home,
+} from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { GameCard } from "@/components/ui/game-card";
 
@@ -25,9 +36,27 @@ const getGameProps = (gameTitle: string, index: number) => {
     { icon: <Trophy className="h-6 w-6" />, color: "secondary" as const },
     { icon: <Gamepad2 className="h-6 w-6" />, color: "yellow" as const },
   ];
-  
+
   return gameTypes[index % gameTypes.length];
 };
+
+const Footer = () => (
+  <footer className="w-full py-4 text-center text-sm text-muted-foreground border-t bg-background font-cairo">
+    <div className="container mx-auto">
+      <p>
+        Educational Game 2025 | Created for Educational purposes By{" "}
+        <a
+          href="https://sanwaralkmali.github.io/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-primary hover:underline"
+        >
+          Salah Alkmali
+        </a>
+      </p>
+    </div>
+  </footer>
+);
 
 const SkillPage = () => {
   const { skillName } = useParams<{ skillName: string }>();
@@ -40,7 +69,7 @@ const SkillPage = () => {
       if (!skillName) return;
       try {
         const response = await fetch(`/data/${skillName}.json`);
-        if (!response.ok) throw new Error('Skill not found');
+        if (!response.ok) throw new Error("Skill not found");
         const data = await response.json();
         setSkillData(data);
         setError(null);
@@ -67,7 +96,9 @@ const SkillPage = () => {
       <div className="min-h-screen bg-background font-cairo flex items-center justify-center">
         <div className="text-center">
           <BookOpen className="h-16 w-16 text-muted-foreground mx-auto mb-4" />
-          <h1 className="text-2xl font-bold text-foreground mb-2">Skill Not Found</h1>
+          <h1 className="text-2xl font-bold text-foreground mb-2">
+            Skill Not Found
+          </h1>
           <p className="text-muted-foreground mb-6">{error}</p>
           <Button asChild variant="default">
             <Link to="/">Back to Skills</Link>
@@ -80,13 +111,31 @@ const SkillPage = () => {
   return (
     <div className="min-h-screen bg-background font-cairo">
       {/* Header */}
-      <div className="bg-gradient-to-r from-primary to-secondary py-12">
+      <div className="relative bg-gradient-to-r from-primary to-secondary py-12">
+        {/* Home Button - Top Right */}
+        <a
+          href="#"
+          className="absolute top-4 right-4 z-20"
+          onClick={(e) => {
+            e.preventDefault();
+            window.location.href = "https://sanwaralkmali.github.io/mathlogame";
+          }}
+        >
+          <Button
+            variant="secondary"
+            className="flex items-center gap-2 shadow-lg hover:scale-105 transition-transform"
+          >
+            <Home className="w-5 h-5" />
+            Home
+          </Button>
+        </a>
         <div className="container mx-auto px-4 flex flex-col items-center justify-center text-center">
           <h1 className="text-4xl md:text-5xl font-bold text-white mb-4">
             {skillData.skill}
           </h1>
           <p className="text-xl text-white/90">
-            Choose a game to start your {skillData.skill.toLowerCase()} adventure!
+            Choose a game to start your {skillData.skill.toLowerCase()}{" "}
+            adventure!
           </p>
         </div>
       </div>
@@ -98,8 +147,9 @@ const SkillPage = () => {
             🎮 Available Games
           </h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            Each game offers a unique way to master {skillData.skill.toLowerCase()}. 
-            Choose your favorite game style and start playing!
+            Each game offers a unique way to master{" "}
+            {skillData.skill.toLowerCase()}. Choose your favorite game style and
+            start playing!
           </p>
         </div>
 
@@ -120,21 +170,7 @@ const SkillPage = () => {
         </div>
       </div>
       {/* Footer */}
-      <footer className="w-full py-4 text-center text-sm text-muted-foreground border-t font-cairo">
-        <div className="container mx-auto">
-          <p>
-            Educational Game 2025 | Created for Educational purposes By{" "}
-            <Link 
-              to="https://sanwaralkmali.github.io/" 
-              target="_blank" 
-              rel="noopener noreferrer"
-              className="text-primary hover:underline"
-            >
-              Salah Alkmali
-            </Link>
-          </p>
-        </div>
-      </footer>
+      <Footer />
     </div>
   );
 };

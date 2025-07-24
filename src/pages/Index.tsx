@@ -49,7 +49,7 @@ const mathSkills = [
     description:
       "Master the art of simplifying mathematical expressions through quizzes and battles!",
     skillName: "simplify-expressions",
-    color: "red" as const,
+    color: "violet" as const,
     icon: <X className="h-6 w-6" />,
   },
 
@@ -81,6 +81,20 @@ const mathSkills = [
     description: "Factoring Trinomials: x² + bx + c && ax² + bx + c",
     skillName: "factoring-trinomials",
     color: "red" as const,
+    icon: <Trophy className="h-6 w-6" />,
+  },
+  {
+    title: "Factoring Difference of Squares & Perfect Square Trinomials",
+    description: "Factoring Difference of Squares: a² - b²",
+    skillName: "squares-trinomials",
+    color: "sky" as const,
+    icon: <Trophy className="h-6 w-6" />,
+  },
+  {
+    title: "Factoring Sum and Difference of Cubes",
+    description: "Factoring Sum and Difference of Cubes: a³ + b³ && a³ - b³",
+    skillName: "difference-sum-of-cubes",
+    color: "amber" as const,
     icon: <Trophy className="h-6 w-6" />,
   },
   {

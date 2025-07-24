@@ -1,0 +1,35 @@
+{
+  "skill": "Perfect Square Trinomials & Difference of Squares",
+  "games": [
+    {
+      "title": "Quiz: Perfect Square Trinomials",
+      "description": "Practice factoring perfect square trinomials.",
+      "link": "https://math-wave-survivor-game.vercel.app/?skill=perfect-squares"
+    },
+    {
+      "title": "Quiz: Difference of Squares",
+      "description": "Work on factoring difference of squares.",
+      "link": "https://math-wave-survivor-game.vercel.app/?skill=difference-of-squares"
+    },
+    {
+      "title": "Battle: Perfect Square Trinomials",
+      "description": "Race to factor perfect square trinomials correctly.",
+      "link": "https://math-battle-pied.vercel.app/?skill=perfect-squares"
+    },
+    {
+      "title": "Battle: Difference of Squares",
+      "description": "Compete in factoring difference of squares.",
+      "link": "https://math-battle-pied.vercel.app/?skill=difference-of-squares"
+    },
+    {
+      "title": "Speed Math Battle: Perfect Square Trinomials",
+      "description": "Be the fastest to factor perfect square trinomials and win points.",
+      "link": "https://speed-math-battle.vercel.app/?skill=perfect-squares"
+    },
+    {
+      "title": "Speed Math Battle: Difference of Squares",
+      "description": "Be the fastest to factor difference of squares and win points.",
+      "link": "https://speed-math-battle.vercel.app/?skill=difference-of-squares"
+    }
+  ]
+}
