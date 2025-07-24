@@ -1,0 +1,20 @@
+{
+  "skill": "Solving Equations by Factoring",
+  "games": [
+    {
+      "title": "Quiz: Solving Equations by Factoring",
+      "description": "Work on solving equations by factoring.",
+      "link": "https://math-wave-survivor-game.vercel.app/?skill=solving-equations-by-factoring"
+    },
+    {
+      "title": "Battle: Solving Equations by Factoring",
+      "description": "Race to solve equations by factoring correctly.",
+      "link": "https://math-battle-pied.vercel.app/?skill=solving-equations-by-factoring"
+    },
+    {
+      "title": "Speed Math Battle: Solving Equations by Factoring",
+      "description": "Be the fastest to solve equations by factoring and win points.",
+      "link": "https://speed-math-battle.vercel.app/?skill=solving-equations-by-factoring"
+    }
+  ]
+}

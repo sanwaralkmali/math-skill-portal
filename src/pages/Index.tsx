@@ -98,6 +98,14 @@ const mathSkills = [
     icon: <Trophy className="h-6 w-6" />,
   },
   {
+    title: "Solving Equations by Factoring",
+    description:
+      "Solving Equations by Factoring: GFC, x² + bx + c = 0, ax² + bx + c = 0, difference of squares , perfect squares",
+    skillName: "solving-equations-by-factoring",
+    color: "violet" as const,
+    icon: <Trophy className="h-6 w-6" />,
+  },
+  {
     title: "Logic Puzzles",
     description:
       "Sharpen your problem-solving skills with mind-bending puzzles and logical challenges that make math fun!",
@@ -105,6 +113,7 @@ const mathSkills = [
     color: "primary" as const,
     icon: <Gamepad2 className="h-6 w-6" />,
   },
+
   {
     title: "Math Olympics",
     description:
