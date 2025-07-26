@@ -113,6 +113,13 @@ const mathSkills = [
     icon: <Trophy className="h-6 w-6" />,
   },
   {
+    title: "Understanding Polynomials",
+    description: "Understanding Polynomials: ax² + bx + c",
+    skillName: "understanding-polynomials",
+    color: "orange" as const,
+    icon: <Trophy className="h-6 w-6" />,
+  },
+  {
     title: "Logic Puzzles",
     description:
       "Sharpen your problem-solving skills with mind-bending puzzles and logical challenges that make math fun!",

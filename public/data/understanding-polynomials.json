@@ -1,0 +1,25 @@
+{
+  "skill": "Understanding Polynomials",
+  "games": [
+    {
+      "title": "Drag: Understanding Polynomials",
+      "description": "Drag and drop to polynomials expressions.",
+      "link": "https://math-master-drag-drop.vercel.app/?skill=understanding-polynomials"
+    },
+    {
+      "title": "Quiz: Classify Polynomials",
+      "description": "Classify polynomials into the right group.",
+      "link": "https://math-wave-survivor-game.vercel.app/?skill=understanding-polynomials"
+    },
+    {
+      "title": "Battle: Polynomials",
+      "description": "Compete to classify polynomials fast and right.",
+      "link": "https://math-battle-pied.vercel.app/?skill=understanding-polynomials"
+    },
+    {
+      "title": "Speed Math Battle",
+      "description": "Be the fastest to classify polynomials and win points.",
+      "link": "https://speed-math-battle.vercel.app/?skill=understanding-polynomials"
+    }
+  ]
+}
