@@ -120,6 +120,20 @@ const mathSkills = [
     icon: <Trophy className="h-6 w-6" />,
   },
   {
+    title: "Adding and Subtracting Polynomials",
+    description: "Adding and Subtracting Polynomials: (x + y) + (x - y)",
+    skillName: "adding-subtracting-polynomials",
+    color: "cyan" as const,
+    icon: <Trophy className="h-6 w-6" />,
+  },
+  {
+    title: "Multiplying Polynomials",
+    description: "Multiplying Polynomials: (x + y)(x - y)",
+    skillName: "multiplying-polynomials",
+    color: "violet" as const,
+    icon: <Trophy className="h-6 w-6" />,
+  },
+  {
     title: "Logic Puzzles",
     description:
       "Sharpen your problem-solving skills with mind-bending puzzles and logical challenges that make math fun!",
