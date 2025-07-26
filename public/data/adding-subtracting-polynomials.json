@@ -1,0 +1,20 @@
+{
+  "skill": "Adding and Subtracting Polynomials",
+  "games": [
+    {
+      "title": "Quiz: Adding and Subtracting Polynomials",
+      "description": "Test your ability to solve equations of varying difficulty.",
+      "link": "https://math-wave-survivor-game.vercel.app/?skill=adding-subtracting-polynomials"
+    },
+    {
+      "title": "Battle: Adding and Subtracting Polynomials",
+      "description": "Compete to solve equations faster than your opponent.",
+      "link": "https://math-battle-pied.vercel.app/?skill=adding-subtracting-polynomials"
+    },
+    {
+      "title": "Speed Math Battle: Adding and Subtracting Polynomials",
+      "description": "Be the fastest to add and subtract polynomials and win points",
+      "link": "https://speed-math-battle.vercel.app/?skill=adding-subtracting-polynomials"
+    }
+  ]
+}
