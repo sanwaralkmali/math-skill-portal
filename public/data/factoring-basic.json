@@ -9,7 +9,12 @@
     {
       "title": "Battle: Basic Factoring",
       "description": "2-player competitive battle to master GCF and factoring by grouping.",
-      "link": "https://math-battle-pied.vercel.app/?skill=factoring"
+      "link": "https://math-battle-pied.vercel.app/?skill=gcf-factoring"
+    },
+    {
+      "title": "Factoring by Grouping",
+      "description": "Practice factoring by grouping in wave-based challenges.",
+      "link": "https://math-battle-pied.vercel.app/?skill=factoring-by-grouping"
     },
     {
       "title": "Speed: Basic Factoring",

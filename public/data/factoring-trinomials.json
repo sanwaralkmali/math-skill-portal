@@ -7,9 +7,14 @@
       "link": "https://math-wave-survivor-game.vercel.app/?filtered=factoring-trinomials"
     },
     {
-      "title": "Battle: Factoring Trinomials",
-      "description": "2-player competitive battle to master factoring trinomials.",
-      "link": "https://math-battle-pied.vercel.app/?skill=factoring-trinomials"
+      "title": "Battle: Factoring Trinomials: (x² + bx + c)",
+      "description": "2-player competitive battle to master factoring trinomials: (x² + bx + c).",
+      "link": "https://math-battle-pied.vercel.app/?skill=factoring-trinomials-1"
+    },
+    {
+      "title": "Battle: Factoring Trinomials: (ax² + bx + c)",
+      "description": "2-player competitive battle to master factoring trinomials: (ax² + bx + c).",
+      "link": "https://math-battle-pied.vercel.app/?skill=factoring-trinomials-2"
     },
     {
       "title": "Speed: Factoring Trinomials",

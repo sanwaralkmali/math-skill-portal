@@ -17,6 +17,28 @@
       "link": "https://math-battle-pied.vercel.app/?skill=rational-conversion"
     },
     {
+      "title": "Battle: Fraction to Decimal",
+      "description": "Practice converting fractions to decimals in wave-based challenges.",
+      "link": "https://math-battle-pied.vercel.app/?skill=fraction-decimal"
+    },
+
+    {
+      "title": "Battle: Fraction to Percentage",
+      "description": "Practice converting fractions to percentages in wave-based challenges.",
+      "link": "https://math-battle-pied.vercel.app/?skill=fraction-percentage"
+    },
+    {
+      "title": "Battle: Decimal to Percentage",
+      "description": "Practice converting decimals to percentages in wave-based challenges.",
+      "link": "https://math-battle-pied.vercel.app/?skill=decimal-percentage"
+    },
+    {
+      "title": "Battle: Mixed Conversion",
+      "description": "Practice converting between fractions, decimals, and percentages in wave-based challenges.",
+      "link": "https://math-battle-pied.vercel.app/?skill=mixed-conversion"
+    },
+
+    {
       "title": "Speed: Rational Conversion",
       "description": "Race against time to convert between rational number forms.",
       "link": "https://speed-math-battle.vercel.app/?skill=rational-conversion"
