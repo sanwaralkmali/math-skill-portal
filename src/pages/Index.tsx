@@ -5,7 +5,6 @@ import {
   X,
   Target,
   Brain,
-  Gamepad2,
   Trophy,
 } from "lucide-react";
 import { SkillCard } from "@/components/ui/skill-card";
@@ -14,7 +13,7 @@ const mathSkills = [
   {
     title: "Number Classification",
     description:
-      "Master number classification by classify numbers into different categories based on their properties.",
+      "Learn to classify numbers into different categories based on their properties.",
     skillName: "classification-numbers",
     color: "primary" as const,
     icon: <Component className="h-6 w-6" />,
@@ -22,7 +21,7 @@ const mathSkills = [
   {
     title: "Operations Invasion",
     description:
-      "Master addition, subtraction, multiplication, and division through exciting battle scenarios. Fight math monsters with your calculation skills!",
+      "Master addition, subtraction, multiplication, and division through exciting battles.",
     skillName: "operations-invasion",
     color: "orange" as const,
     icon: <Calculator className="h-6 w-6" />,
@@ -30,16 +29,23 @@ const mathSkills = [
   {
     title: "Scientific Notation",
     description:
-      "Master the basics and operations of scientific notation through quizzes and battles!",
+      "Learn to work with scientific notation through interactive games and challenges.",
     skillName: "scientific-notation",
     color: "yellow" as const,
     icon: <Brain className="h-6 w-6" />,
   },
-
+  {
+    title: "Rational Conversion",
+    description:
+      "Master converting between fractions, decimals, and percentages.",
+    skillName: "rational-conversion",
+    color: "green" as const,
+    icon: <Divide className="h-6 w-6" />,
+  },
   {
     title: "Algebra Builder",
     description:
-      "Explore the concepts of variables and constants in algebra. Practice identifying and using them in mathematical expressions and equations!",
+      "Explore variables and constants in algebra with hands-on practice.",
     skillName: "algebra-builder",
     color: "teal" as const,
     icon: <Target className="h-6 w-6" />,
@@ -47,16 +53,15 @@ const mathSkills = [
   {
     title: "Simplify Expressions",
     description:
-      "Master the art of simplifying mathematical expressions through quizzes and battles!",
+      "Master the art of simplifying mathematical expressions step by step.",
     skillName: "simplify-expressions",
     color: "violet" as const,
     icon: <X className="h-6 w-6" />,
   },
-
   {
     title: "Solving Equations",
     description:
-      "Master the art of solving equations step by step, from simple linear to more complex equations!",
+      "Learn to solve equations from simple linear to complex equations.",
     skillName: "solving-equations",
     color: "blue" as const,
     icon: <Divide className="h-6 w-6" />,
@@ -64,116 +69,116 @@ const mathSkills = [
   {
     title: "Solving Inequalities",
     description:
-      "Learn to solve and graph inequalities with interactive challenges and games!",
+      "Master solving and graphing inequalities with interactive challenges.",
     skillName: "solving-inequalities",
     color: "purple" as const,
     icon: <Trophy className="h-6 w-6" />,
   },
   {
     title: "Basic Factoring",
-    description: "GCF: Greatest Common Factor & Factoring by Grouping",
+    description: "Learn GCF and factoring by grouping techniques.",
     skillName: "factoring-basic",
     color: "cyan" as const,
     icon: <Trophy className="h-6 w-6" />,
   },
   {
     title: "Factoring Trinomials",
-    description: "Factoring Trinomials: x² + bx + c && ax² + bx + c",
+    description: "Master factoring trinomials with different coefficients.",
     skillName: "factoring-trinomials",
     color: "red" as const,
     icon: <Trophy className="h-6 w-6" />,
   },
   {
-    title: "Factoring Difference of Squares & Perfect Square Trinomials",
-    description: "Factoring Difference of Squares: a² - b²",
+    title: "Factoring Special Forms",
+    description:
+      "Learn to factor difference of squares and perfect square trinomials.",
     skillName: "squares-trinomials",
     color: "sky" as const,
     icon: <Trophy className="h-6 w-6" />,
   },
   {
-    title: "Factoring Sum and Difference of Cubes",
-    description: "Factoring Sum and Difference of Cubes: a³ + b³ && a³ - b³",
+    title: "Factoring Cubes",
+    description: "Master factoring sum and difference of cubes.",
     skillName: "difference-sum-of-cubes",
     color: "amber" as const,
     icon: <Trophy className="h-6 w-6" />,
   },
   {
-    title: "Solving Equations by Factoring",
-    description:
-      "Solving Equations by Factoring: GFC, x² + bx + c = 0, ax² + bx + c = 0, difference of squares , perfect squares",
+    title: "Solving by Factoring",
+    description: "Solve equations using various factoring techniques.",
     skillName: "solving-equations-by-factoring",
     color: "violet" as const,
     icon: <Trophy className="h-6 w-6" />,
   },
   {
     title: "Quadratic Formula",
-    description: "Quadratic Formula: ax² + bx + c = 0",
+    description:
+      "Learn to solve quadratic equations using the quadratic formula.",
     skillName: "quadratic-formula",
     color: "orange" as const,
     icon: <Trophy className="h-6 w-6" />,
   },
   {
     title: "Understanding Polynomials",
-    description: "Understanding Polynomials: ax² + bx + c",
+    description: "Explore polynomial concepts and their properties.",
     skillName: "understanding-polynomials",
     color: "orange" as const,
     icon: <Trophy className="h-6 w-6" />,
   },
   {
-    title: "Adding and Subtracting Polynomials",
-    description: "Adding and Subtracting Polynomials: (x + y) + (x - y)",
+    title: "Adding & Subtracting Polynomials",
+    description: "Master polynomial addition and subtraction operations.",
     skillName: "adding-subtracting-polynomials",
     color: "cyan" as const,
     icon: <Trophy className="h-6 w-6" />,
   },
   {
     title: "Multiplying Polynomials",
-    description: "Multiplying Polynomials: (x + y)(x - y)",
+    description: "Learn to multiply polynomials using various methods.",
     skillName: "multiplying-polynomials",
     color: "violet" as const,
-    icon: <Trophy className="h-6 w-6" />,
-  },
-  {
-    title: "Logic Puzzles",
-    description:
-      "Sharpen your problem-solving skills with mind-bending puzzles and logical challenges that make math fun!",
-    skillName: "logic-puzzles",
-    color: "primary" as const,
-    icon: <Gamepad2 className="h-6 w-6" />,
-  },
-
-  {
-    title: "Math Olympics",
-    description:
-      "Compete in mathematical challenges across all skill levels. From basic arithmetic to advanced problem solving!",
-    skillName: "math-olympics",
-    color: "secondary" as const,
     icon: <Trophy className="h-6 w-6" />,
   },
 ];
 
 const Index = () => {
   return (
-    <div className="min-h-screen bg-background font-cairo">
+    <div className="min-h-screen bg-gradient-to-br from-background via-background to-muted/20 font-cairo">
       {/* Hero Section */}
-      <div className="bg-gradient-to-br from-primary via-secondary to-primary py-16 lg:py-24">
-        <div className="container mx-auto px-4">
+      <div className="relative bg-gradient-to-br from-primary via-primary/90 to-secondary py-12 lg:py-20 overflow-hidden">
+        {/* Background Pattern */}
+        <div className="absolute inset-0 bg-grid-white/10 bg-[size:30px_30px] lg:bg-[size:50px_50px]" />
+        <div className="absolute inset-0 bg-gradient-to-r from-primary/20 to-secondary/20" />
+
+        <div className="relative container mx-auto px-4">
           <div className="text-center max-w-4xl mx-auto">
-            <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold text-white mb-6 animate-float">
-              🧮 Math Skills Game Portal
+            <div className="inline-flex items-center gap-2 bg-white/10 backdrop-blur-sm px-3 py-2 lg:px-4 lg:py-2 rounded-full mb-4 lg:mb-6">
+              <span className="text-lg lg:text-2xl">🧮</span>
+              <span className="text-white/90 font-medium text-sm lg:text-base">
+                Math Skills Portal
+              </span>
+            </div>
+
+            <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-7xl xl:text-8xl font-bold text-white mb-6 lg:mb-8 animate-float">
+              Master Math
+              <span className="block text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-normal text-white/90 mt-2">
+                Through Games
+              </span>
             </h1>
-            <p className="text-xl md:text-2xl text-white/90 mb-8 leading-relaxed">
-              Master mathematics through engaging games and exciting challenges.
-              Choose your skill and embark on an educational adventure!
+
+            <p className="text-base sm:text-lg md:text-xl lg:text-2xl text-white/90 mb-8 lg:mb-10 leading-relaxed max-w-3xl mx-auto px-4">
+              Choose your skill and embark on an educational adventure with
+              interactive games and exciting challenges.
             </p>
-            <div className="flex flex-wrap justify-center gap-4 text-white/80">
-              <span className="bg-white/20 px-4 py-2 rounded-full">
+
+            <div className="flex flex-wrap justify-center gap-2 lg:gap-4 text-white/90 mb-6 lg:mb-8 px-4">
+              <span className="bg-white/15 backdrop-blur-sm px-3 py-2 lg:px-6 lg:py-3 rounded-full border border-white/20 text-xs lg:text-sm">
                 ✨ Interactive Learning
               </span>
-              <span className="bg-white/20 px-4 py-2 rounded-full">
+              <span className="bg-white/15 backdrop-blur-sm px-3 py-2 lg:px-6 lg:py-3 rounded-full border border-white/20 text-xs lg:text-sm">
                 🎯 Skill-Based Progression
               </span>
-              <span className="bg-white/20 px-4 py-2 rounded-full">
+              <span className="bg-white/15 backdrop-blur-sm px-3 py-2 lg:px-6 lg:py-3 rounded-full border border-white/20 text-xs lg:text-sm">
                 🏆 Achievement System
               </span>
             </div>
@@ -182,35 +187,43 @@ const Index = () => {
       </div>
 
       {/* Skills Grid */}
-      <div className="container mx-auto px-4 py-16">
-        <div className="text-center mb-12">
-          <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">
+      <div className="container mx-auto px-2 sm:px-4 py-8 sm:py-12 lg:py-20">
+        <div className="text-center mb-8 sm:mb-12 lg:mb-16">
+          <h2 className="text-xl sm:text-2xl md:text-4xl lg:text-5xl font-bold text-foreground mb-3 sm:mb-4 lg:mb-6">
             Choose Your Math Adventure
           </h2>
-          <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
+          <p className="text-sm sm:text-base md:text-lg text-muted-foreground max-w-3xl mx-auto leading-relaxed px-2 sm:px-4">
             Each skill contains multiple games designed to make learning math
             fun and engaging. Start with any skill that interests you!
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-7xl mx-auto">
+        <div className="grid grid-cols-1 gap-y-6 sm:grid-cols-2 lg:grid-cols-3 gap-x-4 lg:gap-x-8 max-w-7xl mx-auto">
           {mathSkills.map((skill, index) => (
-            <SkillCard
-              key={skill.skillName}
-              title={skill.title}
-              description={skill.description}
-              skillName={skill.skillName}
-              color={skill.color}
-              icon={skill.icon}
-            />
+            <div key={skill.skillName} className="w-full">
+              <SkillCard
+                title={skill.title}
+                description={skill.description}
+                skillName={skill.skillName}
+                color={skill.color}
+                icon={skill.icon}
+              />
+            </div>
           ))}
         </div>
       </div>
 
       {/* Footer */}
-      <footer className="bg-muted py-8 mt-16">
+      <footer className="bg-muted/50 py-8 lg:py-12 mt-12 lg:mt-20">
         <div className="container mx-auto px-4 text-center">
-          <p className="text-muted-foreground">🎓 Learn • 🎮 Play • 🚀 Excel</p>
+          <div className="flex items-center justify-center gap-3 lg:gap-4 text-muted-foreground mb-3 lg:mb-4">
+            <span className="text-lg lg:text-2xl">🎓</span>
+            <span className="text-lg lg:text-2xl">🎮</span>
+            <span className="text-lg lg:text-2xl">🚀</span>
+          </div>
+          <p className="text-base lg:text-lg font-medium text-foreground">
+            Learn • Play • Excel
+          </p>
         </div>
       </footer>
     </div>

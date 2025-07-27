@@ -3,17 +3,17 @@
   "games": [
     {
       "title": "Quiz: Factoring Trinomials",
-      "description": "Practice factoring trinomials.",
+      "description": "Practice factoring trinomials in wave-based challenges.",
       "link": "https://math-wave-survivor-game.vercel.app/?filtered=factoring-trinomials"
     },
     {
       "title": "Battle: Factoring Trinomials",
-      "description": "Compete to factoring trinomials and win points.",
+      "description": "2-player competitive battle to master factoring trinomials.",
       "link": "https://math-battle-pied.vercel.app/?skill=factoring-trinomials"
     },
     {
-      "title": "Speed Math Battle: Factoring Trinomials",
-      "description": "Be the fastest to factoring trinomials and win points.",
+      "title": "Speed: Factoring Trinomials",
+      "description": "Race against time to factor trinomial problems.",
       "link": "https://speed-math-battle.vercel.app/?skill=factoring-trinomials"
     }
   ]

@@ -3,17 +3,17 @@
   "games": [
     {
       "title": "Quiz: Simplify Expressions",
-      "description": "Work on adding, subtracting, multiplying, and dividing.",
+      "description": "Practice simplifying mathematical expressions in wave-based challenges.",
       "link": "https://math-wave-survivor-game.vercel.app/?skill=simplify-expressions"
     },
     {
       "title": "Battle: Simplify Expressions",
-      "description": "Race to simplify expressions correctly.",
+      "description": "2-player competitive battle to master simplifying expressions.",
       "link": "https://math-battle-pied.vercel.app/?skill=simplify-expressions"
     },
     {
-      "title": "Speed Math Battle: Simplify Expressions",
-      "description": "Be the fastest to simplify expressions and win points.",
+      "title": "Speed: Simplify Expressions",
+      "description": "Race against time to simplify expression problems.",
       "link": "https://speed-math-battle.vercel.app/?skill=simplify-expressions"
     }
   ]

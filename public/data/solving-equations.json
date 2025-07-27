@@ -3,17 +3,17 @@
   "games": [
     {
       "title": "Quiz: Solving Equations",
-      "description": "Test your ability to solve equations of varying difficulty.",
+      "description": "Practice solving equations of varying difficulty in wave-based challenges.",
       "link": "https://math-wave-survivor-game.vercel.app/?skill=solving-equations"
     },
     {
-      "title": "Turn-Based Duel",
-      "description": "Compete to solve equations faster than your opponent.",
+      "title": "Battle: Solving Equations",
+      "description": "2-player competitive battle to master solving equations.",
       "link": "https://math-battle-pied.vercel.app/?skill=solving-equations"
     },
     {
-      "title": "Speed Equation Challenge",
-      "description": "Be the fastest to solve the equations and win points",
+      "title": "Speed: Solving Equations",
+      "description": "Race against time to solve equation problems.",
       "link": "https://speed-math-battle.vercel.app/?skill=solving-equations"
     }
   ]

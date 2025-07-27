@@ -3,17 +3,17 @@
   "games": [
     {
       "title": "Quiz: Multiplying Polynomials",
-      "description": "Test your ability to solve equations of varying difficulty.",
+      "description": "Practice multiplying polynomials in wave-based challenges.",
       "link": "https://math-wave-survivor-game.vercel.app/?skill=multiplying-polynomials"
     },
     {
       "title": "Battle: Multiplying Polynomials",
-      "description": "Compete to solve equations faster than your opponent.",
+      "description": "2-player competitive battle to master polynomial multiplication.",
       "link": "https://math-battle-pied.vercel.app/?skill=multiplying-polynomials"
     },
     {
-      "title": "Speed Math Battle: Multiplying Polynomials",
-      "description": "Be the fastest to multiply polynomials and win points",
+      "title": "Speed: Multiplying Polynomials",
+      "description": "Race against time to solve polynomial multiplication problems.",
       "link": "https://speed-math-battle.vercel.app/?skill=multiplying-polynomials"
     }
   ]

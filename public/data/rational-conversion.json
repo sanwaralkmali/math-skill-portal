@@ -3,27 +3,22 @@
   "games": [
     {
       "title": "Quiz: Rational Conversion",
-      "description": "Answer fraction and decimal questions in timed waves.",
+      "description": "Practice converting between fractions, decimals, and percentages in wave-based challenges.",
       "link": "https://math-wave-survivor-game.vercel.app/?filtered=rational-conversion"
     },
     {
-      "title": "Match: Convert Values",
-      "description": "Match decimals, fractions, and percents.",
+      "title": "Memory: Rational Conversion",
+      "description": "Match decimals, fractions, and percentages in memory challenges.",
       "link": "https://math-memory-game.vercel.app/game?skill=convert-rational"
     },
     {
-      "title": "Battle (Offline)",
-      "description": "2-player conversion battle on one device.",
+      "title": "Battle: Rational Conversion",
+      "description": "2-player competitive battle to master rational number conversion.",
       "link": "https://math-battle-pied.vercel.app/?skill=rational-conversion"
     },
     {
-      "title": "Battle (Online)",
-      "description": "Play live battles with others. (Coming soon)",
-      "link": "coming soon"
-    },
-    {
-      "title": "Speed Math Battle",
-      "description": "Be the fastest to convert and win points.",
+      "title": "Speed: Rational Conversion",
+      "description": "Race against time to convert between rational number forms.",
       "link": "https://speed-math-battle.vercel.app/?skill=rational-conversion"
     }
   ]

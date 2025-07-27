@@ -3,17 +3,17 @@
   "games": [
     {
       "title": "Quiz: Quadratic Formula",
-      "description": "Test your ability to solve equations of varying difficulty.",
+      "description": "Practice solving quadratic equations using the quadratic formula in wave-based challenges.",
       "link": "https://math-wave-survivor-game.vercel.app/?skill=quadratic-formula"
     },
     {
       "title": "Battle: Quadratic Formula",
-      "description": "Compete to solve equations faster than your opponent.",
+      "description": "2-player competitive battle to master solving quadratic equations.",
       "link": "https://math-battle-pied.vercel.app/?skill=quadratic-formula"
     },
     {
-      "title": "Speed Math Battle: Quadratic Formula",
-      "description": "Be the fastest to solve quadratic formula and win points",
+      "title": "Speed: Quadratic Formula",
+      "description": "Race against time to solve quadratic equation problems.",
       "link": "https://speed-math-battle.vercel.app/?skill=quadratic-formula"
     }
   ]

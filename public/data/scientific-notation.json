@@ -2,33 +2,33 @@
   "skill": "Scientific Notation",
   "games": [
     {
-      "title": "Quiz: Convert Numbers",
-      "description": "Practice converting to and from scientific notation.",
+      "title": "Quiz: Scientific Notation Basics",
+      "description": "Practice converting to and from scientific notation in wave-based challenges.",
       "link": "https://math-wave-survivor-game.vercel.app/?skill=basic-scientific-notation"
     },
     {
-      "title": "Quiz: Scientific Notation Ops",
-      "description": "Work on adding, subtracting, multiplying, and dividing.",
+      "title": "Quiz: Scientific Notation Operations",
+      "description": "Practice adding, subtracting, multiplying, and dividing scientific notation in wave-based challenges.",
       "link": "https://math-wave-survivor-game.vercel.app/?skill=operations-scientific-notation"
     },
     {
-      "title": "Battle: Convert Numbers",
-      "description": "Race to convert numbers correctly.",
+      "title": "Battle: Scientific Notation Basics",
+      "description": "2-player competitive battle to master scientific notation conversion.",
       "link": "https://math-battle-pied.vercel.app/?skill=basic-scientific-notation"
     },
     {
-      "title": "Battle: Notation Operations",
-      "description": "Compete in scientific notation operations.",
+      "title": "Battle: Scientific Notation Operations",
+      "description": "2-player competitive battle to master scientific notation operations.",
       "link": "https://math-battle-pied.vercel.app/?skill=operations-scientific-notation"
     },
     {
-      "title": "Speed Math Battle: Convert Numbers",
-      "description": "Be the fastest to convert and win points.",
+      "title": "Speed: Scientific Notation Basics",
+      "description": "Race against time to convert scientific notation problems.",
       "link": "https://speed-math-battle.vercel.app/?skill=basic-scientific-notation"
     },
     {
-      "title": "Speed Math Battle: Notation Operations",
-      "description": "Be the fastest to convert and win points.",
+      "title": "Speed: Scientific Notation Operations",
+      "description": "Race against time to solve scientific notation operation problems.",
       "link": "https://speed-math-battle.vercel.app/?skill=operations-scientific-notation"
     }
   ]

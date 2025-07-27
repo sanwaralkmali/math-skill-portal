@@ -2,23 +2,23 @@
   "skill": "Number Classification",
   "games": [
     {
-      "title": "Drag: Classify Numbers",
-      "description": "Sort numbers into the right group.",
+      "title": "Drag & Drop: Number Classification",
+      "description": "Drag and drop to classify numbers into the correct categories.",
       "link": "https://math-master-drag-drop.vercel.app/?skill=classification-numbers"
     },
     {
-      "title": "Quiz: Number Sets",
-      "description": "Pick the correct set for each number.",
+      "title": "Quiz: Number Classification",
+      "description": "Practice classifying numbers into different sets in wave-based challenges.",
       "link": "https://math-wave-survivor-game.vercel.app/?skill=classification-numbers"
     },
     {
-      "title": "Battle: Number Groups",
-      "description": "Compete to classify numbers fast and right.",
+      "title": "Battle: Number Classification",
+      "description": "2-player competitive battle to master number classification.",
       "link": "https://math-battle-pied.vercel.app/?skill=classification-numbers"
     },
     {
-      "title": "Speed Math Battle",
-      "description": "Be the fastest to classify numbers and win points.",
+      "title": "Speed: Number Classification",
+      "description": "Race against time to classify numbers correctly.",
       "link": "https://speed-math-battle.vercel.app/?skill=classification-numbers"
     }
   ]

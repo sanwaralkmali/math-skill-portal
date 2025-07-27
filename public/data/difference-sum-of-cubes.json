@@ -2,18 +2,18 @@
   "skill": "Difference and Sum of Cubes",
   "games": [
     {
-      "title": "Quiz: Difference and Sum of Cubes",
-      "description": "Test your ability to solve equations of varying difficulty.",
+      "title": "Quiz: Sum & Difference of Cubes",
+      "description": "Practice factoring sum and difference of cubes in wave-based challenges.",
       "link": "https://math-wave-survivor-game.vercel.app/?skill=difference-sum-of-cubes"
     },
     {
-      "title": "Battle: Difference and Sum of Cubes",
-      "description": "Compete to solve equations faster than your opponent.",
+      "title": "Battle: Sum & Difference of Cubes",
+      "description": "2-player competitive battle to master factoring sum and difference of cubes.",
       "link": "https://math-battle-pied.vercel.app/?skill=difference-sum-of-cubes"
     },
     {
-      "title": "Speed Math Battle: Difference and Sum of Cubes",
-      "description": "Be the fastest to factor difference and sum of cubes and win points",
+      "title": "Speed: Sum & Difference of Cubes",
+      "description": "Race against time to factor sum and difference of cubes problems.",
       "link": "https://speed-math-battle.vercel.app/?skill=difference-sum-of-cubes"
     }
   ]

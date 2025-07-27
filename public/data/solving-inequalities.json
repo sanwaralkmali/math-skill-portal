@@ -3,17 +3,17 @@
   "games": [
     {
       "title": "Quiz: Solving Inequalities",
-      "description": "Practice solving and understanding inequalities.",
+      "description": "Practice solving and understanding inequalities in wave-based challenges.",
       "link": "https://math-wave-survivor-game.vercel.app/?skill=solving-inequalities"
     },
     {
-      "title": "Turn-Based Duel",
-      "description": "Face off to solve inequalities in a competitive setting.",
+      "title": "Battle: Solving Inequalities",
+      "description": "2-player competitive battle to master solving inequalities.",
       "link": "https://math-battle-pied.vercel.app/?skill=solving-inequalities"
     },
     {
-      "title": "Speed inequalities Challenge",
-      "description": "Be the fastest to solve the inequalities and win points!",
+      "title": "Speed: Solving Inequalities",
+      "description": "Race against time to solve inequality problems.",
       "link": "https://speed-math-battle.vercel.app/?skill=solving-inequalities"
     }
   ]

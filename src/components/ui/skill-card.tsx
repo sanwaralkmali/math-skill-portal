@@ -7,7 +7,7 @@ import {
   CardHeader,
   CardTitle,
 } from "@/components/ui/card";
-import { ArrowRight, Calculator, Zap } from "lucide-react";
+import { ArrowRight, Zap } from "lucide-react";
 
 interface SkillCardProps {
   title: string;
@@ -36,51 +36,51 @@ interface SkillCardProps {
 
 const colorClasses = {
   orange:
-    "from-game-orange/20 to-game-orange/5 border-game-orange/20 hover:border-game-orange/40",
-  pink: "from-game-pink/20 to-game-pink/5 border-game-pink/20 hover:border-game-pink/40",
+    "from-orange-500/10 to-orange-500/5 border-orange-200/50 hover:border-orange-300/70 hover:from-orange-500/15",
+  pink: "from-pink-500/10 to-pink-500/5 border-pink-200/50 hover:border-pink-300/70 hover:from-pink-500/15",
   yellow:
-    "from-game-yellow/20 to-game-yellow/5 border-game-yellow/20 hover:border-game-yellow/40",
-  teal: "from-game-teal/20 to-game-teal/5 border-game-teal/20 hover:border-game-teal/40",
-  blue: "from-game-blue/20 to-game-blue/5 border-game-blue/20 hover:border-game-blue/40",
+    "from-yellow-500/10 to-yellow-500/5 border-yellow-200/50 hover:border-yellow-300/70 hover:from-yellow-500/15",
+  teal: "from-teal-500/10 to-teal-500/5 border-teal-200/50 hover:border-teal-300/70 hover:from-teal-500/15",
+  blue: "from-blue-500/10 to-blue-500/5 border-blue-200/50 hover:border-blue-300/70 hover:from-blue-500/15",
   green:
-    "from-game-green/20 to-game-green/5 border-game-green/20 hover:border-game-green/40",
-  red: "from-game-red/20 to-game-red/5 border-game-red/20 hover:border-game-red/40",
+    "from-green-500/10 to-green-500/5 border-green-200/50 hover:border-green-300/70 hover:from-green-500/15",
+  red: "from-red-500/10 to-red-500/5 border-red-200/50 hover:border-red-300/70 hover:from-red-500/15",
   purple:
-    "from-game-purple/20 to-game-purple/5 border-game-purple/20 hover:border-game-purple/40",
-  cyan: "from-game-cyan/20 to-game-cyan/5 border-game-cyan/20 hover:border-game-cyan/40",
-  lime: "from-game-lime/20 to-game-lime/5 border-game-lime/20 hover:border-game-lime/40",
+    "from-purple-500/10 to-purple-500/5 border-purple-200/50 hover:border-purple-300/70 hover:from-purple-500/15",
+  cyan: "from-cyan-500/10 to-cyan-500/5 border-cyan-200/50 hover:border-cyan-300/70 hover:from-cyan-500/15",
+  lime: "from-lime-500/10 to-lime-500/5 border-lime-200/50 hover:border-lime-300/70 hover:from-lime-500/15",
   amber:
-    "from-game-amber/20 to-game-amber/5 border-game-amber/20 hover:border-game-amber/40",
+    "from-amber-500/10 to-amber-500/5 border-amber-200/50 hover:border-amber-300/70 hover:from-amber-500/15",
   indigo:
-    "from-game-indigo/20 to-game-indigo/5 border-game-indigo/20 hover:border-game-indigo/40",
-  rose: "from-game-rose/20 to-game-rose/5 border-game-rose/20 hover:border-game-rose/40",
+    "from-indigo-500/10 to-indigo-500/5 border-indigo-200/50 hover:border-indigo-300/70 hover:from-indigo-500/15",
+  rose: "from-rose-500/10 to-rose-500/5 border-rose-200/50 hover:border-rose-300/70 hover:from-rose-500/15",
   violet:
-    "from-game-violet/20 to-game-violet/5 border-game-violet/20 hover:border-game-violet/40",
-  sky: "from-game-sky/20 to-game-sky/5 border-game-sky/20 hover:border-game-sky/40",
+    "from-violet-500/10 to-violet-500/5 border-violet-200/50 hover:border-violet-300/70 hover:from-violet-500/15",
+  sky: "from-sky-500/10 to-sky-500/5 border-sky-200/50 hover:border-sky-300/70 hover:from-sky-500/15",
   primary:
-    "from-primary/20 to-primary/5 border-primary/20 hover:border-primary/40",
+    "from-primary/10 to-primary/5 border-primary/20 hover:border-primary/30 hover:from-primary/15",
   secondary:
-    "from-secondary/20 to-secondary/5 border-secondary/20 hover:border-secondary/40",
+    "from-secondary/10 to-secondary/5 border-secondary/20 hover:border-secondary/30 hover:from-secondary/15",
 };
 
 const iconClasses = {
-  orange: "text-game-orange",
-  pink: "text-game-pink",
-  yellow: "text-game-yellow",
-  teal: "text-game-teal",
-  blue: "text-game-blue",
-  green: "text-game-green",
-  red: "text-game-red",
-  purple: "text-game-purple",
-  cyan: "text-game-cyan",
-  lime: "text-game-lime",
-  amber: "text-game-amber",
-  indigo: "text-game-indigo",
-  rose: "text-game-rose",
-  violet: "text-game-violet",
-  sky: "text-game-sky",
-  primary: "text-primary",
-  secondary: "text-secondary",
+  orange: "text-orange-600 bg-orange-100",
+  pink: "text-pink-600 bg-pink-100",
+  yellow: "text-yellow-600 bg-yellow-100",
+  teal: "text-teal-600 bg-teal-100",
+  blue: "text-blue-600 bg-blue-100",
+  green: "text-green-600 bg-green-100",
+  red: "text-red-600 bg-red-100",
+  purple: "text-purple-600 bg-purple-100",
+  cyan: "text-cyan-600 bg-cyan-100",
+  lime: "text-lime-600 bg-lime-100",
+  amber: "text-amber-600 bg-amber-100",
+  indigo: "text-indigo-600 bg-indigo-100",
+  rose: "text-rose-600 bg-rose-100",
+  violet: "text-violet-600 bg-violet-100",
+  sky: "text-sky-600 bg-sky-100",
+  primary: "text-primary bg-primary/10",
+  secondary: "text-secondary bg-secondary/10",
 };
 
 export const SkillCard = ({
@@ -92,32 +92,32 @@ export const SkillCard = ({
 }: SkillCardProps) => {
   return (
     <Card
-      className={`group h-full transition-all duration-300 hover:shadow-xl hover:-translate-y-2 bg-gradient-to-br ${colorClasses[color]} border-2 cursor-pointer`}
+      className={`group h-full transition-all duration-300 hover:shadow-xl hover:-translate-y-1 bg-gradient-to-br ${colorClasses[color]} border backdrop-blur-sm`}
     >
-      <CardHeader className="pb-3">
-        <div className="flex items-center space-x-3 mb-2">
-          <div className={`p-2 rounded-lg bg-white/80 text-foreground`}>
-            {icon || <Calculator className="h-6 w-6" />}
+      <CardHeader className="pb-3 lg:pb-4">
+        <div className="flex items-center justify-between mb-2 lg:mb-3">
+          <div className={`p-2 lg:p-3 rounded-xl ${iconClasses[color]} group-hover:scale-110 transition-all duration-300`}>
+            {icon || <Zap className="h-5 w-5 lg:h-6 lg:w-6" />}
           </div>
-          <Zap className="h-5 w-5 text-foreground group-hover:animate-bounce" />
+          <Zap className="h-4 w-4 lg:h-5 lg:w-5 text-muted-foreground group-hover:text-primary group-hover:animate-bounce transition-all" />
         </div>
-        <CardTitle className="text-xl font-bold text-foreground group-hover:text-primary transition-colors">
+        <CardTitle className="text-lg lg:text-xl font-bold text-foreground group-hover:text-primary transition-colors leading-tight">
           {title}
         </CardTitle>
       </CardHeader>
 
-      <CardContent className="space-y-4">
-        <CardDescription className="text-muted-foreground leading-relaxed">
+      <CardContent className="space-y-3 lg:space-y-4">
+        <CardDescription className="text-muted-foreground leading-relaxed text-xs lg:text-sm">
           {description}
         </CardDescription>
 
         <Button
           asChild
-          className="w-full bg-gradient-to-r from-primary to-secondary hover:from-primary-glow hover:to-secondary text-white font-semibold group-hover:scale-105 transition-all duration-200"
+          className="w-full bg-gradient-to-r from-primary to-secondary hover:from-primary/90 hover:to-secondary/90 text-white font-semibold group-hover:scale-105 transition-all duration-200 shadow-lg hover:shadow-xl text-sm lg:text-base py-2 lg:py-3"
         >
           <Link to={`/skills/${skillName}`}>
-            View Games
-            <ArrowRight className="w-4 h-4 ml-2 group-hover:translate-x-1 transition-transform" />
+            Explore Games
+            <ArrowRight className="w-3 h-3 lg:w-4 lg:h-4 ml-2 group-hover:translate-x-1 transition-transform" />
           </Link>
         </Button>
       </CardContent>

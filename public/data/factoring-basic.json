@@ -2,18 +2,18 @@
   "skill": "Basic Factoring",
   "games": [
     {
-      "title": "Quiz: Factoring Basic GCF and Factoring by Grouping",
-      "description": "Practice finding the GCF of numbers and factoring by grouping.",
+      "title": "Quiz: Basic Factoring",
+      "description": "Practice GCF and factoring by grouping in wave-based challenges.",
       "link": "https://math-wave-survivor-game.vercel.app/?filtered=factoring"
     },
     {
-      "title": "Battle: Factoring Basic GCF and Factoring by Grouping",
-      "description": "Compete to find the GCF of numbers and factoring by grouping and win points.",
+      "title": "Battle: Basic Factoring",
+      "description": "2-player competitive battle to master GCF and factoring by grouping.",
       "link": "https://math-battle-pied.vercel.app/?skill=factoring"
     },
     {
-      "title": "Speed Math Battle: Factoring Basic GCF and Factoring by Grouping",
-      "description": "Be the fastest to find the GCF of numbers and factoring by grouping and win points.",
+      "title": "Speed: Basic Factoring",
+      "description": "Race against time to solve basic factoring problems.",
       "link": "https://speed-math-battle.vercel.app/?skill=factoring"
     }
   ]

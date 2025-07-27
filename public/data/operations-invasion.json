@@ -3,22 +3,17 @@
   "games": [
     {
       "title": "Quiz: Basic Operations",
-      "description": "Solve addition, subtraction, and more in waves.",
+      "description": "Practice addition, subtraction, multiplication, and division in wave-based challenges.",
       "link": "https://math-wave-survivor-game.vercel.app/?filtered=basic-operations"
     },
     {
-      "title": "Battle (Offline)",
-      "description": "2-player battle with basic operations.",
+      "title": "Battle: Basic Operations",
+      "description": "2-player competitive battle to master basic operations.",
       "link": "https://math-battle-pied.vercel.app/?skill=basic-operations"
     },
     {
-      "title": "Battle (Online)",
-      "description": "Real-time operation battles. (Coming soon)",
-      "link": "coming soon"
-    },
-    {
-      "title": "Speed Math Battle",
-      "description": "Be the fastest to simplify and win points.",
+      "title": "Speed: Basic Operations",
+      "description": "Race against time to solve basic operation problems.",
       "link": "https://speed-math-battle.vercel.app/?skill=basic-operations"
     }
   ]

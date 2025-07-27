@@ -3,32 +3,32 @@
   "games": [
     {
       "title": "Quiz: Perfect Square Trinomials",
-      "description": "Practice factoring perfect square trinomials.",
+      "description": "Practice factoring perfect square trinomials in wave-based challenges.",
       "link": "https://math-wave-survivor-game.vercel.app/?skill=perfect-squares"
     },
     {
       "title": "Quiz: Difference of Squares",
-      "description": "Work on factoring difference of squares.",
+      "description": "Practice factoring difference of squares in wave-based challenges.",
       "link": "https://math-wave-survivor-game.vercel.app/?skill=difference-of-squares"
     },
     {
       "title": "Battle: Perfect Square Trinomials",
-      "description": "Race to factor perfect square trinomials correctly.",
+      "description": "2-player competitive battle to master factoring perfect square trinomials.",
       "link": "https://math-battle-pied.vercel.app/?skill=perfect-squares"
     },
     {
       "title": "Battle: Difference of Squares",
-      "description": "Compete in factoring difference of squares.",
+      "description": "2-player competitive battle to master factoring difference of squares.",
       "link": "https://math-battle-pied.vercel.app/?skill=difference-of-squares"
     },
     {
-      "title": "Speed Math Battle: Perfect Square Trinomials",
-      "description": "Be the fastest to factor perfect square trinomials and win points.",
+      "title": "Speed: Perfect Square Trinomials",
+      "description": "Race against time to factor perfect square trinomial problems.",
       "link": "https://speed-math-battle.vercel.app/?skill=perfect-squares"
     },
     {
-      "title": "Speed Math Battle: Difference of Squares",
-      "description": "Be the fastest to factor difference of squares and win points.",
+      "title": "Speed: Difference of Squares",
+      "description": "Race against time to factor difference of squares problems.",
       "link": "https://speed-math-battle.vercel.app/?skill=difference-of-squares"
     }
   ]
