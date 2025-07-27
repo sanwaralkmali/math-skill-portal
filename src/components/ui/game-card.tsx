@@ -128,12 +128,7 @@ export const GameCard = ({
           asChild
           className={`w-full bg-gradient-to-r ${buttonClasses[color]} text-white font-semibold py-2 lg:py-3 hover:scale-105 transition-all duration-200 shadow-lg hover:shadow-xl text-sm lg:text-base`}
         >
-          <a
-            href={link}
-            target="_blank"
-            rel="noopener noreferrer"
-            onClick={handleClick}
-          >
+          <a href={link} rel="noopener noreferrer" onClick={handleClick}>
             <Play className="w-3 h-3 lg:w-4 lg:h-4 mr-2 group-hover:animate-pulse" />
             Start Game
           </a>
