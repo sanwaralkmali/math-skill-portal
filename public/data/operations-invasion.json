@@ -1,10 +1,10 @@
 {
-  "skill": "Operations Invasion",
+  "skill": "Operations with Real Numbers",
   "games": [
     {
       "title": "Quiz: Basic Operations",
       "description": "Practice addition, subtraction, multiplication, and division in wave-based challenges.",
-      "link": "https://math-wave-survivor-game.vercel.app/?skill=integer-operations"
+      "link": "https://math-wave-survivor-game.vercel.app/?skill=integers"
     },
     {
       "title": "Battle: Operations with Integers",
