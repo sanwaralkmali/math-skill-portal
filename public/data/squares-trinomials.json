@@ -9,7 +9,7 @@
     {
       "title": "Quiz: Difference of Squares",
       "description": "Practice factoring difference of squares in wave-based challenges.",
-      "link": "https://math-wave-survivor-game.vercel.app/?skill=difference-of-squares"
+      "link": "https://math-wave-survivor-game.vercel.app/?skill=difference-squares"
     },
     {
       "title": "Battle: Perfect Square Trinomials",
@@ -19,7 +19,7 @@
     {
       "title": "Battle: Difference of Squares",
       "description": "2-player competitive battle to master factoring difference of squares.",
-      "link": "https://math-battle-pied.vercel.app/?skill=difference-of-squares"
+      "link": "https://math-battle-pied.vercel.app/?skill=difference-squares"
     },
     {
       "title": "Speed: Perfect Square Trinomials",
@@ -29,7 +29,7 @@
     {
       "title": "Speed: Difference of Squares",
       "description": "Race against time to factor difference of squares problems.",
-      "link": "https://speed-math-battle.vercel.app/?skill=difference-of-squares"
+      "link": "https://speed-math-battle.vercel.app/?skill=difference-squares"
     }
   ]
 }
