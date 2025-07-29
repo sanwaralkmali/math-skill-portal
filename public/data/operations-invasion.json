@@ -7,9 +7,35 @@
       "link": "https://math-wave-survivor-game.vercel.app/?skill=integers"
     },
     {
+      "title": "Quiz: Operations with Fractions",
+      "description": "Practice addition, subtraction, multiplication, and division in wave-based challenges.",
+      "link": "https://math-wave-survivor-game.vercel.app/?skill=fractions"
+    },
+    {
+      "title": "Quiz: Operations with Decimals",
+      "description": "Practice addition, subtraction, multiplication, and division in wave-based challenges.",
+      "link": "https://math-wave-survivor-game.vercel.app/?skill=decimals"
+    },
+
+    {
+      "title": "Quiz: Mixed Operations",
+      "description": "Practice addition, subtraction, multiplication, and division in wave-based challenges.",
+      "link": "https://math-wave-survivor-game.vercel.app/?skill=mixed-problems"
+    },
+    {
+      "title": "Quiz: Order of Operations",
+      "description": "Practice the order of operations in wave-based challenges.",
+      "link": "https://math-wave-survivor-game.vercel.app/?skill=order-of-operations"
+    },
+    {
       "title": "Battle: Operations with Integers",
       "description": "2-player competitive battle to master basic operations.",
       "link": "https://math-battle-pied.vercel.app/?skill=integers"
+    },
+    {
+      "title": "Battle: Operations with Fractions",
+      "description": "2-player competitive battle to master fractions operations.",
+      "link": "https://math-battle-pied.vercel.app/?skill=fractions"
     },
     {
       "title": "Battle: Operations with Decimals",
@@ -17,21 +43,16 @@
       "link": "https://math-battle-pied.vercel.app/?skill=decimals"
     },
     {
-      "title": "Battle: Operations with Fractions",
-      "description": "2-player competitive battle to master fractions operations.",
-      "link": "https://math-battle-pied.vercel.app/?skill=fractions"
+      "title": "Battle: Mixed Operations",
+      "description": "Practice addition, subtraction, multiplication, and division in challenges.",
+      "link": "https://math-battle-pied.vercel.app/?skill=mixed-problems"
     },
-
     {
       "title": "Battle: Order of Operations",
       "description": "Practice the order of operations in challenges.",
       "link": "https://math-battle-pied.vercel.app/?skill=order-of-operations"
     },
-    {
-      "title": "Battle: Mixed Operations",
-      "description": "Practice addition, subtraction, multiplication, and division in challenges.",
-      "link": "https://math-battle-pied.vercel.app/?skill=mixed-problems"
-    },
+
     {
       "title": "Speed: Basic Operations",
       "description": "Race against time to solve basic operation problems.",
