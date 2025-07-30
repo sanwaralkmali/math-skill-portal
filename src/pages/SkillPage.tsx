@@ -3,6 +3,7 @@ import { useEffect, useState } from "react";
 import { BookOpen, Home } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { GameCard } from "@/components/ui/game-card";
+import MATHLOGAMEFooter from "@/components/ui/mathlogame-footer";
 
 interface Game {
   title: string;
@@ -77,31 +78,7 @@ const getGameProps = (gameTitle: string, gameDescription: string) => {
   };
 };
 
-const Footer = () => (
-  <footer className="w-full py-8 lg:py-12 text-center border-t bg-muted/50 font-cairo">
-    <div className="container mx-auto">
-      <div className="flex items-center justify-center gap-3 lg:gap-4 text-muted-foreground mb-3 lg:mb-4">
-        <span className="text-lg lg:text-2xl">🎓</span>
-        <span className="text-lg lg:text-2xl">🎮</span>
-        <span className="text-lg lg:text-2xl">🚀</span>
-      </div>
-      <p className="text-base lg:text-lg font-medium text-foreground mb-2">
-        Educational Game 2025
-      </p>
-      <p className="text-xs lg:text-sm text-muted-foreground">
-        Created for Educational purposes By{" "}
-        <a
-          href="https://sanwaralkmali.github.io/"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="text-primary hover:underline font-medium"
-        >
-          Salah Alkmali
-        </a>
-      </p>
-    </div>
-  </footer>
-);
+// Footer component removed - using MATHLOGAMEFooter instead
 
 const SkillPage = () => {
   const { skillName } = useParams<{ skillName: string }>();
@@ -221,8 +198,8 @@ const SkillPage = () => {
         </div>
       </div>
 
-      {/* Footer */}
-      <Footer />
+      {/* MATHLOGAME Footer */}
+      <MATHLOGAMEFooter />
     </div>
   );
 };
