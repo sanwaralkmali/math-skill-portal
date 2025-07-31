@@ -2,6 +2,11 @@
   "skill": "Rational Conversion",
   "games": [
     {
+      "title": "Memory Cards: Convert Rational",
+      "description": "Practice converting fractions to decimals in memory card game.",
+      "link": "https://math-memory-game.vercel.app/game?skill=convert-rational"
+    },
+    {
       "title": "Quiz: Fraction to Decimal",
       "description": "Practice converting fractions to decimals in wave-based challenges.",
       "link": "https://math-wave-survivor-game.vercel.app/?skill=fraction-decimal"
