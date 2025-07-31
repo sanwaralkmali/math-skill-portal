@@ -22,9 +22,14 @@
       "link": "https://math-battle-pied.vercel.app/?skill=factoring-trinomials-2"
     },
     {
-      "title": "Speed: Factoring Trinomials",
+      "title": "Speed: Factoring Trinomials (x² + bx + c)",
       "description": "Race against time to factor trinomial problems.",
-      "link": "https://speed-math-battle.vercel.app/?skill=factoring-trinomials"
+      "link": "https://speed-math-battle.vercel.app/?skill=factoring-trinomials-1"
+    },
+    {
+      "title": "Speed: Factoring Trinomials (ax² + bx + c)",
+      "description": "Race against time to factor trinomial problems.",
+      "link": "https://speed-math-battle.vercel.app/?skill=factoring-trinomials-2"
     }
   ]
 }

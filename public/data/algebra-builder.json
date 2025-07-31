@@ -12,14 +12,14 @@
       "link": "https://math-wave-survivor-game.vercel.app/?skill=algebra-basics"
     },
     {
-      "title": "Battle: Algebra Builder",
+      "title": "Battle: Algebra Basics",
       "description": "2-player competitive battle to master algebra concepts.",
       "link": "https://math-battle-pied.vercel.app/?skill=algebra-basics"
     },
     {
-      "title": "Speed: Algebra Builder",
+      "title": "Speed: Algebra Basics",
       "description": "Race against time to solve algebra problems.",
-      "link": "https://speed-math-battle.vercel.app/?skill=algebra-builder"
+      "link": "https://speed-math-battle.vercel.app/?skill=algebra-basics"
     }
   ]
 }

@@ -4,7 +4,7 @@
     {
       "title": "Quiz: Basic Factoring",
       "description": "Practice GCF and factoring by grouping in wave-based challenges.",
-      "link": "https://math-wave-survivor-game.vercel.app/?filtered=factoring"
+      "link": "https://math-wave-survivor-game.vercel.app/?skill=gcf-factoring"
     },
     {
       "title": "Quiz: Factoring by Grouping",
@@ -24,7 +24,12 @@
     {
       "title": "Speed: Basic Factoring",
       "description": "Race against time to solve basic factoring problems.",
-      "link": "https://speed-math-battle.vercel.app/?skill=factoring"
+      "link": "https://speed-math-battle.vercel.app/?skill=gcf-factoring"
+    },
+    {
+      "title": "Speed: Factoring by Grouping",
+      "description": "Race against time to solve factoring by grouping problems.",
+      "link": "https://speed-math-battle.vercel.app/?skill=factoring-by-grouping"
     }
   ]
 }

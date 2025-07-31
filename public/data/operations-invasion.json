@@ -54,9 +54,30 @@
     },
 
     {
-      "title": "Speed: Basic Operations",
+      "title": "Speed: Operations integers",
       "description": "Race against time to solve basic operation problems.",
-      "link": "https://speed-math-battle.vercel.app/?skill=basic-operations"
+      "link": "https://speed-math-battle.vercel.app/?skill=integers"
+    },
+
+    {
+      "title": "Speed: Operations with Fractions",
+      "description": "Race against time to solve fraction operation problems.",
+      "link": "https://speed-math-battle.vercel.app/?skill=fractions"
+    },
+    {
+      "title": "Speed: Operations with Decimals",
+      "description": "Race against time to solve decimal operation problems.",
+      "link": "https://speed-math-battle.vercel.app/?skill=decimals"
+    },
+    {
+      "title": "Speed: Mixed Operations",
+      "description": "Race against time to solve mixed operation problems.",
+      "link": "https://speed-math-battle.vercel.app/?skill=mixed-problems"
+    },
+    {
+      "title": "Speed: Order of Operations",
+      "description": "Race against time to solve order of operation problems.",
+      "link": "https://speed-math-battle.vercel.app/?skill=order-of-operations"
     }
   ]
 }

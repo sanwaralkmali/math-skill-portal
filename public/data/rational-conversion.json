@@ -19,7 +19,7 @@
     {
       "title": "Quiz: Mixed Conversion",
       "description": "Practice converting between fractions, decimals, and percentages in wave-based challenges.",
-      "link": "https://math-wave-survivor-game.vercel.app/?skill=mixed-problems"
+      "link": "https://math-wave-survivor-game.vercel.app/?skill=mixed-conversion"
     },
     {
       "title": "Battle: Fraction to Decimal",
@@ -40,13 +40,28 @@
     {
       "title": "Battle: Mixed Conversion",
       "description": "Practice converting between fractions, decimals, and percentages in challenges.",
-      "link": "https://math-battle-pied.vercel.app/?skill=mixed-problems"
+      "link": "https://math-battle-pied.vercel.app/?skill=mixed-conversion"
     },
 
     {
-      "title": "Speed: Rational Conversion",
-      "description": "Speed Game to convert between rational number forms.",
-      "link": "https://speed-math-battle.vercel.app/?skill=rational-conversion"
+      "title": "Speed: Fraction to Decimal",
+      "description": "Speed Game to convert fractions to decimals.",
+      "link": "https://speed-math-battle.vercel.app/?skill=fraction-decimal"
+    },
+    {
+      "title": "Speed: Fraction to Percentage",
+      "description": "Speed Game to convert fractions to percentages.",
+      "link": "https://speed-math-battle.vercel.app/?skill=fraction-percentage"
+    },
+    {
+      "title": "Speed: Decimal to Percentage",
+      "description": "Speed Game to convert decimals to percentages.",
+      "link": "https://speed-math-battle.vercel.app/?skill=decimal-percentage"
+    },
+    {
+      "title": "Speed: Mixed Conversion",
+      "description": "Speed Game to convert between fractions, decimals, and percentages.",
+      "link": "https://speed-math-battle.vercel.app/?skill=mixed-conversion"
     }
   ]
 }
